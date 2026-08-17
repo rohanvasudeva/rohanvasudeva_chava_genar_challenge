@@ -1,0 +1,91 @@
+{
+    "overall_status": "PASS",
+    "number_validation": {
+        "Total cases": {
+            "expected": 1024,
+            "found": true
+        },
+        "Reaction records": {
+            "expected": 1068,
+            "found": false
+        },
+        "Serious cases": {
+            "expected": 1023,
+            "found": true
+        },
+        "Non-serious cases": {
+            "expected": 1,
+            "found": true
+        },
+        "Expedited cases": {
+            "expected": 1023,
+            "found": true
+        },
+        "Fatal cases": {
+            "expected": 68,
+            "found": true
+        }
+    },
+    "date_validation": {
+        "start_date": {
+            "expected": "2024-12-27",
+            "found": true
+        },
+        "end_date": {
+            "expected": "2025-12-26",
+            "found": true
+        }
+    },
+    "reaction_validation": [
+        {
+            "reaction": "Acute kidney injury",
+            "expected_count": 80,
+            "found": true
+        },
+        {
+            "reaction": "Drug ineffective",
+            "expected_count": 54,
+            "found": true
+        },
+        {
+            "reaction": "Hypotension",
+            "expected_count": 46,
+            "found": true
+        },
+        {
+            "reaction": "Drug interaction",
+            "expected_count": 43,
+            "found": true
+        },
+        {
+            "reaction": "Dyspnoea",
+            "expected_count": 38,
+            "found": true
+        },
+        {
+            "reaction": "Bradycardia",
+            "expected_count": 37,
+            "found": false
+        },
+        {
+            "reaction": "Dizziness",
+            "expected_count": 36,
+            "found": false
+        },
+        {
+            "reaction": "Fatigue",
+            "expected_count": 33,
+            "found": false
+        },
+        {
+            "reaction": "Off label use",
+            "expected_count": 31,
+            "found": false
+        },
+        {
+            "reaction": "Fall",
+            "expected_count": 30,
+            "found": false
+        }
+    ]
+}
